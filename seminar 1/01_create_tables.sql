@@ -1,3 +1,6 @@
+-- Active: 1790182292792@@127.0.0.1@5432@superstore
+create DATABASE superstore;
+
 CREATE TABLE customers (   
     customer_id VARCHAR(20) PRIMARY KEY,
     customer_name VARCHAR(100),
@@ -8,9 +11,9 @@ CREATE TABLE customers (
 
 CREATE TABLE products (
     product_id VARCHAR(20) PRIMARY KEY,
-    product_name VARCHAR(100),
     category VARCHAR(50),
-    sub_category VARCHAR(50)
+    sub_category VARCHAR(50),
+    product_name VARCHAR(100)
 )
 
 CREATE TABLE orders (   
