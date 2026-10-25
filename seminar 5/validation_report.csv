@@ -1,0 +1,18 @@
+Pravidlo,Počet chybných riadkov
+invalid_order_id,0
+duplicate_order_id,22
+invalid_region,0
+invalid_product,31
+Quantity_missing,0
+Quantity_conversion_error,5
+SalesAmount_missing,6
+SalesAmount_conversion_error,16
+Discount_missing,12
+Discount_conversion_error,9
+invalid_quantity_range,24
+invalid_sales_amount_range,0
+invalid_discount_range,8
+invalid_order_date,3
+invalid_delivery_date,10
+delivery_before_order,18
+invalid_phone,34
